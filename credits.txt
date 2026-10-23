@@ -1,0 +1,76 @@
+NICKCHAT - CREDITS
+==================
+
+Version 1.1
+Released: 23 October 2026
+
+
+PROJECT BY
+----------
+Ilham
+  - Idea and project owner
+  - Feature requests (nickname login, contacts, WhatsApp-style features)
+  - Testing and feedback
+
+
+BUILT WITH
+----------
+Claude, an AI assistant made by Anthropic
+  - Wrote the code and the design for Nickchat, working from Ilham's instructions
+  - Built the web app, the Windows app (.exe) and this package
+
+
+WHAT IS IN THIS PACKAGE
+-----------------------
+Nickchat.exe   Windows app. Double-click it and Nickchat opens in its own window,
+               not in a browser. It needs the Microsoft Edge WebView2 Runtime, which is
+               built into Windows 11 and up-to-date Windows 10.
+Nickchat.html  The whole messenger as one file. Open it in any browser.
+credits.txt    This file.
+
+
+FEATURES
+--------
+- Log in with your Gmail and a nickname. A nickname belongs to the first Gmail that uses it,
+  so nobody else can log in with a nickname that is taken by another Gmail.
+- Voice calls and video calls between two people (mute, camera on/off, call history in the chat).
+- Add contacts by nickname and chat one-to-one.
+- Groups of up to 30 people.
+- Sent, delivered and read ticks.
+- Typing indicator, online status and last seen.
+- Replies, emoji reactions, edit, delete for me and delete for everyone.
+- Pin, mute, block, search, drafts, unread counts.
+- Light and dark theme, notifications, sound.
+- Chat backup and restore.
+
+
+THIRD-PARTY SERVICES AND FONTS
+------------------------------
+- ntfy.sh: free public message relay that carries messages and call set-up between people.
+  https://ntfy.sh
+- Google and Cloudflare STUN servers and the free Open Relay TURN service help calls connect.
+  Audio and video go directly between the two devices and are encrypted.
+- Bricolage Grotesque and IBM Plex Sans: fonts loaded from Google Fonts,
+  both under the SIL Open Font License.
+  https://fonts.google.com
+
+
+GOOD TO KNOW
+------------
+- Chats are stored only in the browser you use. Use Settings > Back up chats
+  to keep a copy.
+- Messages pass through a public relay, so do not send secrets.
+- Your Gmail is not verified by Google. It is stored on the relay only as a scrambled code that
+  locks your nickname. If you stay away for more than about 12 hours, the lock can expire and
+  another Gmail could take the nickname. Open the app now and then to keep it.
+- Calls can fail on very strict networks. Allow the microphone and camera when asked.
+- A nickname is not locked to one person. Anyone can type the same nickname.
+- Messages wait on the relay for about 12 hours if someone is offline.
+- If the WebView2 Runtime is missing, Nickchat.exe offers to open its free
+  download page.
+- Windows may show a "Windows protected your PC" notice the first time you run
+  Nickchat.exe, because the file is not digitally signed. Choose
+  "More info", then "Run anyway".
+
+
+Made for Ilham.
